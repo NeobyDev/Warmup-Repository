@@ -1,5 +1,5 @@
 {
-  "name": "Steal a President",
+  "name": "Warmup",
   "tree": {
     "$className": "DataModel",
 
@@ -19,6 +19,12 @@
       "ServerPackages":{
         "$path": "ServerPackages"
       }
+    },
+
+        "ReplicatedFirst": {
+        "ServerFirst": {
+          "$path": "src/serverfirst"
+        }
     },
 
     "StarterPlayer": {
